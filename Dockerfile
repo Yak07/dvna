@@ -2,6 +2,7 @@
 
 FROM node:carbon
 LABEL MAINTAINER "Subash SN"
+USER nonroot
 
 WORKDIR /app
 
